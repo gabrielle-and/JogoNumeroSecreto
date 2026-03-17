@@ -186,12 +186,13 @@ font-size:22px;
 .container__botoes{
     display: flex;
     flex-direction: column;
+    align-items: center; /* centraliza os botões */
     gap: 10px;
-    width: 80%;
+    width: 100%;
 }
 
 .container__botao{
-    width: 100%;
+    width: 80%;
 }
 
 .texto__paragrafo{
