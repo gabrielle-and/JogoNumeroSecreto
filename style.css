@@ -165,3 +165,41 @@ font-size:22px;
 }
 
 }
+
+@media (max-width: 768px) {
+
+.container__conteudo{
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.container__imagem-pessoa{
+    width: 200px;
+    margin-top: 20px;
+}
+
+.container__input{
+    width: 80%;
+}
+
+.container__botoes{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 80%;
+}
+
+.container__botao{
+    width: 100%;
+}
+
+.texto__paragrafo{
+    font-size: 16px;
+}
+
+h1{
+    font-size: 28px;
+}
+
+}
